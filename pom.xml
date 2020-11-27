@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>me.pada.core</groupId>
+	<artifactId>pada-core</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+	<name>Pada Core :: Parent</name>
+
+	<modules>
+		<module>pada-service-starter-parent</module>
+		<module>pada-oauth2-starter-parent</module>
+		<module>pada-spec-starter-parent</module>
+		<module>pada-cloud-dependencies</module>
+		<module>pada-core-starter</module>
+	</modules>
+
+</project>

@@ -35,7 +35,7 @@ public class PadaMailService {
 
   @Async
   public void send(String to, String subject, String content, boolean isHtml, boolean isMultipart, File[] files) {
-    log.info("====START PadaMailService sendJavaMail Send email [multipart '{}' and html '{}'] to '{}' with subject '{}' and content=[{}]====", isMultipart, isHtml, to, subject, content);
+    log.info("====START PadaMailService send email [multipart '{}' and html '{}'] to '{}' with subject '{}' and content=[{}]====", isMultipart, isHtml, to, subject, content);
     try {
       MimeMessage message = javaMailSender.createMimeMessage();
       MimeMessageHelper helper = new MimeMessageHelper(message, isMultipart);
@@ -50,8 +50,8 @@ public class PadaMailService {
       }
       javaMailSender.send(message);
     } catch (Exception e) {
-      log.info("====ERROR PadaMailService send Email could not be sent to '{}': {}", to, e.getMessage());
+      log.info("====ERROR PadaMailService send email could not be sent to '{}': {}", to, e.getMessage());
     }
-    log.info("====END Sent email to '{}' successfully====", to);
+    log.info("====END PadaMailService sent email to '{}' successfully====", to);
   }
 }

@@ -4,14 +4,15 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>me.pada.core</groupId>
-	<artifactId>pada</artifactId>
+	<artifactId>pada-parent</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
-	<name>pada</name>
+	<name>pada-parent</name>
 
 	<modules>
-		<module>pada-core</module>
-		<module>pada-parent</module>
+		<module>pada-service-starter-parent</module>
+		<module>pada-oauth2-starter-parent</module>
+		<module>pada-spec-starter-parent</module>
 	</modules>
 
 </project>

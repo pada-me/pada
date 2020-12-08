@@ -1,1 +1,1 @@
-# pada-core
+# pada

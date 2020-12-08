@@ -9,6 +9,15 @@
 	<packaging>pom</packaging>
 	<name>pada-parent</name>
 
+	<developers>
+		<developer>
+			<id>namthz</id>
+			<name>Tran Huy Nam</name>
+			<email>namth.dev@gmail.com</email>
+			<organizationUrl>https://github.com/pada-me</organizationUrl>
+		</developer>
+	</developers>
+
 	<modules>
 		<module>pada-service-starter-parent</module>
 		<module>pada-oauth2-starter-parent</module>

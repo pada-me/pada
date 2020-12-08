@@ -15,6 +15,15 @@
   <packaging>pom</packaging>
   <name>pada-service-starter-parent</name>
 
+  <developers>
+    <developer>
+      <id>namthz</id>
+      <name>Tran Huy Nam</name>
+      <email>namth.dev@gmail.com</email>
+      <organizationUrl>https://github.com/pada-me</organizationUrl>
+    </developer>
+  </developers>
+
   <properties>
     <org.mapstruct.version>1.4.1.Final</org.mapstruct.version>
     <spring-security-oauth2-autoconfigure.version>2.2.11.RELEASE</spring-security-oauth2-autoconfigure.version>

@@ -14,6 +14,15 @@
   <packaging>pom</packaging>
   <name>pada-oauth2-starter-parent</name>
 
+  <developers>
+    <developer>
+      <id>namthz</id>
+      <name>Tran Huy Nam</name>
+      <email>namth.dev@gmail.com</email>
+      <organizationUrl>https://github.com/pada-me</organizationUrl>
+    </developer>
+  </developers>
+
   <dependencies>
     <dependency>
       <groupId>org.springframework.security.oauth.boot</groupId>

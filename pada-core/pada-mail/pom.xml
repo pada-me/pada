@@ -9,6 +9,15 @@
     <relativePath/>
   </parent>
 
+  <developers>
+    <developer>
+      <id>namthz</id>
+      <name>Tran Huy Nam</name>
+      <email>namth.dev@gmail.com</email>
+      <organizationUrl>https://github.com/pada-me</organizationUrl>
+    </developer>
+  </developers>
+
   <groupId>me.pada.core</groupId>
   <artifactId>pada-mail</artifactId>
   <version>1.0.0</version>

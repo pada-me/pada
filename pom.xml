@@ -9,9 +9,26 @@
 	<packaging>pom</packaging>
 	<name>pada</name>
 
+	<developers>
+		<developer>
+			<id>namthz</id>
+			<name>Tran Huy Nam</name>
+			<email>namth.dev@gmail.com</email>
+			<organizationUrl>https://github.com/pada-me</organizationUrl>
+		</developer>
+	</developers>
+
 	<modules>
 		<module>pada-core</module>
 		<module>pada-parent</module>
 	</modules>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub NamTHz Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/pada-me/pada</url>
+		</repository>
+	</distributionManagement>
 
 </project>

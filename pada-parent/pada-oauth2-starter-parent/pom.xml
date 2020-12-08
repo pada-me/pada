@@ -23,6 +23,14 @@
     </developer>
   </developers>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Pada.me Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/pada-me/pada</url>
+    </repository>
+  </distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>org.springframework.security.oauth.boot</groupId>
